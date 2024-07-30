@@ -68,18 +68,18 @@ public class Main {
             }
         }
         System.out.println("task 7");
-        int Friday = 5;
+        int friday = 5;
         int mo = 31;
         do {
-            System.out.println("Сегодня пятница, " + Friday + "-е число. Необходимо подготовить отчет");
-            Friday += 7;
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет");
+            friday += 7;
         }
-        while (Friday < mo);
+        while (friday < mo);
 
         System.out.println("task 8");
-        int Year = 2024;
-        int start = Year - 200;
-        int stop = Year + 100;
+        int yearr = 2024;
+        int start = yearr - 200;
+        int stop = yearr + 100;
         for (i = start; i <= stop; i++) {
             if (i % 79 == 0) {
                 System.out.println(i);
